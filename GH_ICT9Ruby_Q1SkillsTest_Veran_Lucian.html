@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+   	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Q1 Skills Test</title>
+  	<link rel="stylesheet" type="text/css" href="styles_Q1SkillsTest.css">
+</head>
+
+<body>
+<form>
+
+	<fieldset>
+   	  <strong><p>OBMC Robotics Club Application</p></strong>
+      <br>
+      <label><b>Your Name: <b><input type="text" name="name" placeholder="Enter your full name" required></label><br> <br>
+       <label><b>Your Email: <b><input type="Email" name="email" placeholder="Enter your Email"></label><br> <br>
+      <label><b> Grade Level: <b>          
+       <select name="Streaming Service">
+          	<option value="stream">Select Grade</option>
+            <option value="stream">Grade 7</option>
+            <option value="stream">Grade 8</option>
+            <option value="stream">Grade 9</option>
+            <option value="stream">Grade 10</option>
+          </select>
+          <br>
+          <br>
+      </fieldset>
+
+
+      <fieldset>
+          <legend>Gender</legend>
+          	<label><input type="radio" name="gender" value="Male">Male</label>
+          	<label><input type="radio" name="gender" value="Female">Female</label>
+      </fieldset>
+
+      <fieldset>
+      	<legend> What Are Your Skills? </legend>
+      	<label><input type="checkbox" name="skills" value="Coding">Coding</label>
+      	<label><input type="checkbox" name="skills" value="Design">Design</label>
+      	<label><input type="checkbox" name="skills" value="Electronics">Electronics</label>
+      </fieldset>
+
+
+     <fieldset>
+      <label>Tell Us Why You Want To Join<br>
+       <textarea name="instructions" maxlength="400" placeholder="Feedback here..."></textarea>
+      </label>
+     </fieldset>
+</form>
+
+<h3><b>Top Robotics Activities We Offer:<b></h3>
+
+<ul>
+	<li>Line Following Robots</li>
+	<li>Maze Solving Robots</li>
+	<li>Light Detection Programming</li>
+</ul>
+
+<h1> Helpful Resources </h1>
+
+<ul>
+<li><a href="https://www.tutorialspoint.com/robotics/index.htm" target="_blank" title="Robotics Base">
+	<h2>tutorialspoint.com</h2>
+</a>
+</li>
+
+<li><a href="https://zerorobotics.mit.edu/tutorials/" target="_blank" title="Robotics Base">
+	<h2>zerorobotics.mit</h2>
+</a>
+</li>
+
+</ul>
+
+  <div class="button-group">
+    <button type="button" onclick="confirmOrder()">Submit Application</button>
+  </div>
+
+  <script>
+  function confirmOrder() {
+    alert("✅ Your application has been received!");
+  }
+  </script>
+    </div>

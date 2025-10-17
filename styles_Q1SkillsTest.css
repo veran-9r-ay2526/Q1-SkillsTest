@@ -1,0 +1,73 @@
+body {
+	background-image: url(https://i.redd.it/oxewf8m6mpmc1.png)
+}
+h3 {
+	color: black;
+	text-align: center;
+	font-size: 40px;
+  font-family: Michroma;
+}
+li{
+  font-family: Michroma;
+}
+h1{
+  font-family: Michroma;
+}
+button{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0689e4;
+  color: white;
+  font-weight: bold;
+  font-family: 'Michroma'
+}
+button:hover {
+  background-color: #fbb905;
+}
+form {
+  background-color: white;
+  width: 40%;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 30px;
+  border: 7px solid #71ab23;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+}
+fieldset {
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 2px solid #71ab23;
+  border-radius: 8px;
+  background-color:#0689e4;
+}
+p {
+  color: #fbb905;
+  text-align: center;
+  font-size: 50px;
+  font-family: Michroma;
+  outline: 100px white;
+}
+label {
+	font-family: Michroma;
+	color: white;
+}
+h1{
+	text-align: center;
+}
+h2{
+	font-size: 17px;
+}
+textarea {
+  width: 60%;    
+  height: 100px;   
+  resize: none;    
+  border-radius: 10px;
+  padding: 10px;
+}
+legend{
+  font-family: Michroma;
+}
